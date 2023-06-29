@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(38, 38, 218, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.473);
+    text-align: center;
+}
+h1:hover{
+    background-color: #0fe43d9d;
+}
+
+a{
+    text-decoration: none;
+}
+.boton{
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #DB4437, #4285F4, #F4B400, #0F9D58, #9AA0A6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin: 10;
+}
+.boton:hover{
+    background: linear-gradient(to right, #0fe43d9d, #0fe43d9d, #0fe43d9d, #0fe43d9d, #0fe43d9d);
+}
